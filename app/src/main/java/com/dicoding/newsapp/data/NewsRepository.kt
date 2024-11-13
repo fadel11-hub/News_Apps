@@ -8,9 +8,9 @@ import com.dicoding.newsapp.data.local.room.NewsDao
 import com.dicoding.newsapp.data.remote.response.NewsResponse
 import com.dicoding.newsapp.data.remote.retrofit.ApiService
 import com.dicoding.newsapp.utils.AppExecutors
-import okhttp3.Call
-import okhttp3.Callback
-import okhttp3.Response
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 
 class NewsRepository private constructor(
